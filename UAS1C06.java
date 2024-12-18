@@ -38,10 +38,10 @@ public class UAS1C06 {
                     tentukanJuara();
                     break;
                 case 4:
-                    System.out.println("Terima kasih sudah menggunakan layanan kami!");
+                    System.out.println("\nTerima kasih sudah menggunakan layanan kami!");
                     break;
                 default:
-                    System.out.println("Pilihan tidak valid. Coba lagi.");
+                    System.out.println("\nPilihan tidak valid. Coba lagi.");
             }
         } while (opsi6 != 4);
     }
@@ -161,13 +161,13 @@ public class UAS1C06 {
                         timTerbaik6 = namaTim6[i];
                         skorLevel2Maksimal6 = skorTim6[i][1];
                     } else if (skorTim6[i][1] == skorLevel2Maksimal6) {
-                        System.out.println("Turnamen berakhir seri. Tim terbaik adalah " + NAMA_SAYA6);
+                        System.out.println("\nTurnamen berakhir seri. Tim terbaik adalah " + NAMA_SAYA6);
                         return;
                     }
                 }
             }
         }
 
-        System.out.println("Selamat kepada Tim " + timTerbaik6 + " yang telah memenangkan kompetisi");
+        System.out.println("\nSelamat kepada Tim " + timTerbaik6 + " yang telah memenangkan kompetisi");
     }
 }
